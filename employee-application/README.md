@@ -1,6 +1,4 @@
-# Session one
-
-Welcome to the first session of Digit code club 2024.
+# Employee application
 
 ## Task
 
