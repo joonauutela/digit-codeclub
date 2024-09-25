@@ -1,5 +1,9 @@
 # Employee application
 
+frontend-directory contains React application served by Nextjs.
+
+backend-directory contains Nodejs/Express API application.
+
 ## Task
 
 Employee application consists of two pages: employee list and employee contact information. Employee contact information page can be found by clicking the 'employee id' cell in the employees table.
