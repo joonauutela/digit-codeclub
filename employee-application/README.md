@@ -1,6 +1,6 @@
 # Employee application
 
-frontend-directory contains React application served by Nextjs.
+frontend-directory contains React application served with Nextjs.
 
 backend-directory contains Nodejs/Express API application.
 
