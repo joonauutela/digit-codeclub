@@ -7,6 +7,8 @@ export interface Employee {
 
 export interface ContactInformation {
   id: string;
-  lastName: string;
-  jobTile: string;
+  employeeId: string;
+  email: string;
+  mobile: string;
+  address: string;
 }

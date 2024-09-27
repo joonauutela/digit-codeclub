@@ -1,5 +1,8 @@
 import express from "express";
-import { getEmployees } from "./service/employeeService";
+import {
+  getEmployeeContactInfo,
+  getEmployees,
+} from "./service/employeeService";
 
 export const router = express.Router();
 
@@ -17,5 +20,5 @@ router.route("/employees").get((_req, res, _next) => {
  * @returns ContactInformation in response body
  */
 router.route("/contactinfo/:employeeId").get((req, res, next) => {
-  throw new Error("Not implemented");
+  res.send(getEmployeeContactInfo(req.params.employeeId));
 });

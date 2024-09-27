@@ -2,6 +2,7 @@ import fs from "fs";
 import { ContactInformation, Employee } from "../interface";
 
 const EMPLOYEES_FILE_PATH = "./data/employees.json";
+const CONTACT_INFO_FILE_PATH = "./data/contactinfo.json";
 
 /**
  * Read employee list from JSON file
@@ -18,5 +19,9 @@ export function getEmployees(): Employee[] {
  * @returns Employee contact information
  */
 export function getEmployeeContactInfo(employeeId: string): ContactInformation {
-  throw new Error("Not implemented");
+  const data: Buffer = fs.readFileSync(CONTACT_INFO_FILE_PATH);
+  const contactInfos: ContactInformation[] = JSON.parse(data.toString());
+  return contactInfos.find(
+    (contactInfo) => contactInfo.employeeId === employeeId
+  )!;
 }

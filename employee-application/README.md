@@ -12,7 +12,6 @@ Employee contact information currently shows placeholder mock data. Replace it w
 
 - Fix backend application to return contact information as JSON data for specific employee id.
 - Fetch contact information data from the backend API in the frontend application. Display fetched data in the UI.
-- Add unit tests for new feature and check that all the tests pass.
 
 ## Local development
 
