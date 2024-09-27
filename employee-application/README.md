@@ -6,6 +6,8 @@ backend-directory contains Nodejs/Express API application.
 
 ## Task
 
+### 27.09.2024 - Working solution added
+
 Employee application consists of two pages: employee list and employee contact information. Employee contact information page can be found by clicking the 'employee id' cell in the employees table.
 
 Employee contact information currently shows placeholder mock data. Replace it with actual data:
