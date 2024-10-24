@@ -6,14 +6,17 @@ backend-directory contains Nodejs/Express API application.
 
 ## Task
 
-### 27.09.2024 - Working solution added
-
 Employee application consists of two pages: employee list and employee contact information. Employee contact information page can be found by clicking the 'employee id' cell in the employees table.
 
-Employee contact information currently shows placeholder mock data. Replace it with actual data:
+Once running locally employee list is found in:
 
-- Fix backend application to return contact information as JSON data for specific employee id.
-- Fetch contact information data from the backend API in the frontend application. Display fetched data in the UI.
+```
+http://localhost:3000/employees
+```
+
+Currently the application has only 1 unit test and no system tests in place. Create unit test for employeeService in employeeService.test.ts-file.
+
+Create system tests for employee application in selenium directory.
 
 ## Local development
 
@@ -55,4 +58,30 @@ Start application on port 3001:
 
 ```
 npm start
+```
+
+Run unit tests:
+
+```
+npm run tests
+```
+
+### System tests
+
+Move to selenium directory:
+
+```
+cd selenium
+```
+
+Install dependencies:
+
+```
+npm install
+```
+
+Run tests
+
+```
+npm run test
 ```
