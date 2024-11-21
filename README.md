@@ -9,3 +9,8 @@
 
 - Slides: https://docs.google.com/presentation/d/1MHljnAdMR9CwhrnqxjSimldwgXkhaB1qhIqAeRfb2qw/edit?usp=sharing
 - Code task: employee-application directory
+
+# Session 3 21.11.2024 - AWS
+
+- Slides: https://docs.google.com/presentation/d/1q6of7oFC1ziKfJcLWsrPGojJ3mIV5C7gD-9gjadSLpU/edit?usp=sharing
+- Application code in dedicated branch: aws
