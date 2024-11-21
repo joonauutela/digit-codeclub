@@ -1,0 +1,18 @@
+version: 1
+frontend:
+  phases:
+    preBuild:
+      commands:
+        # Navigate to the aws-demo directory and install dependencies
+        - cd aws-demo
+        - npm install
+    build:
+      commands:
+        # Navigate to the aws-demo directory and build the app
+        - cd aws-demo
+        - npm run build
+  artifacts:
+    # Specify the build output directory located inside aws-demo
+    baseDirectory: aws-demo/build
+    files:
+      - "**/*"
