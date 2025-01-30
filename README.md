@@ -19,3 +19,8 @@
 
 - Slides: https://docs.google.com/presentation/d/1HcIzW9OAL1yq97j0yPaAcH6Fy0Dzlnou8eRW-q5Fqk8/edit?usp=sharing
 - Code task: mongodb-excercise directory
+
+# Session 5 31.1.2025 - APIs
+
+- Slides: https://docs.google.com/presentation/d/1_WJ6O75p-UWW1pwEJaJpC3oDzTBg80IjJsDQCW-14wU/edit?usp=sharing
+- Code task: api-exercise directory
