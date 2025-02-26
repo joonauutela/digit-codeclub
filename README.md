@@ -24,3 +24,8 @@
 
 - Slides: https://docs.google.com/presentation/d/1_WJ6O75p-UWW1pwEJaJpC3oDzTBg80IjJsDQCW-14wU/edit?usp=sharing
 - Code task: api-exercise directory
+
+# Session 6 26.2.2025 - Design systems
+
+- Slides: https://docs.google.com/presentation/d/1A1gIgw_yxQjgeaior1Y4f16Jr-u_7KvTISHWUXSzM18/edit?usp=sharing
+- Code task: storybook directory
