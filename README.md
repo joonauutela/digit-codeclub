@@ -1,6 +1,6 @@
 # Digit Codeclub 2024
 
-## Session 1 26.9.2024 - Fullstack development
+# Session 1 26.9.2024 - Fullstack development
 
 - Slides: https://docs.google.com/presentation/d/1nRA4s4BaNg7Jj-iyF-HhNWpnLnjE9-RlBwnvP_phofw/edit?usp=sharing
 - Code task: employee-application directory
@@ -29,3 +29,8 @@
 
 - Slides: https://docs.google.com/presentation/d/1A1gIgw_yxQjgeaior1Y4f16Jr-u_7KvTISHWUXSzM18/edit?usp=sharing
 - Code task: storybook directory
+
+# Session 7 26.3.2025 - Security in web development
+
+- Slides: https://docs.google.com/presentation/d/1JwhB04lpXGTtNB-FcJgu8aDXW9WS7gUMrg7SXmAYX74/edit?usp=sharing
+- Code task: api-exercise directory

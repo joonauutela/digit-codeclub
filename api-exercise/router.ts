@@ -1,24 +1,22 @@
 import express from "express";
-import { employees } from "./data/employees";
+import { db } from "./data/database";
 
 export const router = express.Router();
-
-/**
- * Get list of employees
- * @returns Employee[] in response body
- */
-router.route("/employees").get((_req, res, _next) => {
-  res.setHeader("Content-Type", "application/json");
-  res.send(employees);
-});
 
 /**
  * Get employee
  * @param employeeId id for employee that is being searched
  * @returns Employee in response body
  */
-router.route("/employees/:id").get((req, res, next) => {
-  const employee = employees.find((employee) => employee.id === req.params.id)!;
-  res.setHeader("Content-Type", "application/json");
-  res.send(employee);
+router.route("/employees").get((req, res, next) => {
+  const query = `SELECT * FROM employees WHERE id = ${req.query.id}`;
+
+  db.all(query, (err: any, rows: any) => {
+    if (err) {
+      console.error("Error retrieving data", err);
+      res.status(500).send("Internal Server Error");
+    } else {
+      res.json(rows);
+    }
+  });
 });

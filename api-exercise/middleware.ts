@@ -17,10 +17,7 @@ export function apikeyMiddleware(
     throw new Error("API key required");
   }
 
-  if (
-    process.env.API_KEY &&
-    req.get(HEADER_X_API_KEY) === process.env.API_KEY
-  ) {
+  if (process.env.API_KEY) {
     next();
   } else {
     res.status(401).send(INVALID_API_KEY_RESPONSE);

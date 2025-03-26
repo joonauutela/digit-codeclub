@@ -2,25 +2,14 @@
 
 ## Task
 
-Employee API currently has two endpoints:
+Employee API currently has one endpoint:
 
 ```
-- GET http://localhost:3001/employees -> get all employees
 
-- GET http://localhost:3001/employees/{id} -> get specific employee
+- GET http://localhost:3001/employees/?id={id} -> get specific employee
 ```
 
-1. Add functionality to add new employee. Implement following endpoint:
-
-```
-- POST http://localhost:3001/employees -> add new employee
-```
-
-2. Add functionality to modify employee job title. Implement following endpoint:
-
-```
-- PUT http://localhost:3001/employees/{id} -> modify job title
-```
+There are two major security vulnerabilities in this application. One is related to the database and one is related to securing the API. Try to find and exploit them and then fix them.
 
 ## Local development
 
